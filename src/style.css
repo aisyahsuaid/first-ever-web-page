@@ -1,0 +1,106 @@
+/*@import url("https://fonts.cdnfonts.com/css/sf-intermosaic");*/
+body {
+  font-family: "SF Intermosaic", sans-serif;
+  font-family: "SF Intermosaic B", sans-serif;
+  color: rgb(254, 207, 209);
+  background: radial-gradient(
+    410px at 49.5% 99%,
+    rgb(250, 208, 196) 0%,
+    rgb(255, 209, 255) 99.5%
+  );
+}
+h2 {
+  font-size: 15px;
+  color: white;
+}
+.sanProject {
+  border-radius: 10px;
+  background: rgba(80, 80, 187, 0.7);
+  /* rgba(173, 181, 231, 0.6);*/
+
+  text-align: center;
+  margin: 30px auto;
+  padding: 30px;
+  width: 50%;
+}
+
+.column1 {
+  float: left;
+  width: 50%;
+}
+.column2 {
+  float: left;
+  width: 50%;
+}
+
+.characters {
+  text-align: center;
+}
+
+.pom {
+  padding: 10px 0;
+  border-radius: 10px;
+  transition: all 200ms ease-in-out;
+  max-width: 400px;
+  margin: 0 auto;
+}
+.pom:hover {
+  background: rgba(251, 245, 170, 0.4);
+}
+.kitty {
+  padding: 10px 0;
+  border-radius: 10px;
+  transition: all 200ms ease-in-out;
+  max-width: 400px;
+  margin: 0 auto;
+}
+.kitty:hover {
+  background: rgba(251, 192, 208, 0.4);
+}
+.cinna {
+  padding: 10px 0;
+  border-radius: 10px;
+  transition: all 200ms ease-in-out;
+  max-width: 400px;
+  margin: 0 auto;
+}
+.cinna:hover {
+  background: rgba(240, 248, 255, 0.4);
+}
+.kuro {
+  padding: 10px 0;
+  border-radius: 10px;
+  transition: all 200ms ease-in-out;
+  max-width: 400px;
+  margin: 0 auto;
+}
+.kuro:hover {
+  background: rgba(210, 208, 255, 0.6);
+}
+button {
+  display: block;
+  text-align: center;
+  margin: 20px auto;
+  border: 1px solid rgb(254, 207, 209);
+  background: rgb(254, 207, 209);
+  color: #fff;
+  font-size: 10px;
+  line-height: 22px;
+  padding: 16px 24px;
+  border-radius: 30px;
+  transition: all 200ms ease;
+  box-shadow: rgba(37, 39, 89, 0.08) 0px 8px 8px 0;
+  cursor: pointer;
+  font-family: "SF Intermosaic", sans-serif;
+  font-family: "SF Intermosaic B", sans-serif;
+}
+
+button:hover {
+  background: white;
+  color: rgb(254, 207, 209);
+  border: 1px solid rgb(254, 207, 209);
+}
+p {
+  font-weight: 100;
+  font-size: 15px;
+}
